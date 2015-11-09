@@ -2,11 +2,13 @@ var ejs= require('ejs');
 var mysql = require('mysql');
 
 function getConnection(){
-	var connection = mysql.createConnection({
-	    host     : 'https://mycompany-tejasc.rhcloud.com/phpmyadmin/',
-	    user     : ' adminLThcDma',
-	    password : 'GlyAuguXyfZ',
-	    database : 'mycompany'
+
+	    	var connection = mysql.createConnection({
+	    host     : 'localhost',
+	    user     : 'root',
+	    password : '',
+	    port : 3306,
+	    database : 'test1'
 	});
 	return connection;
 }
