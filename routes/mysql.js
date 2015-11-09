@@ -6,7 +6,6 @@ function getConnection(){
 	    host     : 'https://mycompany-tejasc.rhcloud.com/phpmyadmin/',
 	    user     : 'adminAZB75js',
 	    password : 'KN6umFNnsU3S',
-	    port : 3306,
 	    database : 'mycompany'
 	});
 	return connection;
