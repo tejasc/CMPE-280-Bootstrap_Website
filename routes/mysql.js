@@ -4,8 +4,8 @@ var mysql = require('mysql');
 function getConnection(){
 	var connection = mysql.createConnection({
 	    host     : 'https://mycompany-tejasc.rhcloud.com/phpmyadmin/',
-	    user     : 'adminAZB75js',
-	    password : 'KN6umFNnsU3S',
+	    user     : ' adminLThcDma',
+	    password : 'GlyAuguXyfZ',
 	    database : 'mycompany'
 	});
 	return connection;
