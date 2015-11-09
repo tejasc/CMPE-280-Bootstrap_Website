@@ -3,11 +3,11 @@ var mysql = require('mysql');
 
 function getConnection(){
 	var connection = mysql.createConnection({
-	    host     : 'localhost',
-	    user     : 'root',
-	    password : '',
+	    host     : 'https://mycompany-tejasc.rhcloud.com/phpmyadmin/',
+	    user     : 'adminAZB75js',
+	    password : 'KN6umFNnsU3S',
 	    port : 3306,
-	    database : 'test1'
+	    database : 'mycompany'
 	});
 	return connection;
 }
